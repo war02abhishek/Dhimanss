@@ -9,7 +9,7 @@ import errorMiddleware from "./middleware/error.js";
 import admin from "./routes/adminRoute.js"
 import product from "./routes/productRoute.js"
 import enquiry from "./routes/enquiryRoute.js"
-import formenquiry from "./routes/formenquiryRoute.js"
+import formenquiry from "./routes/formEnquiryRoute.js"
 
 const app = express();
 const __dirname = path.resolve();
