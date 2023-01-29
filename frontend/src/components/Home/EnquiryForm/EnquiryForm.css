@@ -1,0 +1,16 @@
+.ConatctContainerMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+@media screen and (max-width:680px) {
+    .ConatctContainerMain{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}

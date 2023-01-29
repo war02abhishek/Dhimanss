@@ -1,0 +1,123 @@
+/* Make the container flex and center the items inside */
+.p-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55rem;
+  padding-top: 5rem;
+}
+
+/* Style the product image */
+.p-image {
+  width: 50%;
+  max-width: 600px;
+  border-radius: 2rem;
+}
+
+/* Style the product info container */
+.p-info {
+  width: 50%;
+  text-align: left;
+  padding: 16rem;
+}
+
+/* Style the product name */
+.p-name {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product price */
+.p-price {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product id */
+.p-id {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product description */
+.p-description {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product dimension */
+.p-dimension {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product weight */
+.p-weight {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Style the product MOQ */
+.p-moq {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 1rem;
+
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Make the product image and info container take up full width on smaller screens */
+  .p-detail-container {
+  display: flex;
+  flex-direction: column;
+  height: 85rem;
+}
+  
+  .p-image{
+     width: 85%;
+  /* padding: 6rem; */
+  padding-top: 16rem;
+  /* border-radius: 2rem;    */
+  border-radius: 2rem;
+  margin-top: 2rem;
+
+  }
+  .p-info {
+    width: 85%;
+  padding: 6rem;
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+
+
+  }
+  /* Reduce font size on smaller screens */
+  .p-name,
+  .p-price,
+  .p-id,
+  .p-description,
+  .p-dimension,
+  .p-weight,
+  .p-moq {
+    font-size: 1rem;
+  }
+}

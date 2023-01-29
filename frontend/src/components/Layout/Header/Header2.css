@@ -1,0 +1,141 @@
+.HeadContainer{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    
+    width: 100%;
+    flex-direction: row;
+    /* align-items: center; */
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: white;
+}
+@keyframes lineanimation {
+  0% {
+    border-bottom-width: 0%;
+  }
+  100% {
+    border-bottom-width: 100%;
+  }
+}
+
+  .nav-btn {
+    display: none;
+  }
+    .HeadLinks{
+         display: flex;
+        flex-direction: row;
+        width: 70%;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-between;
+    
+    
+    }
+    .HeadLinks a{
+       
+        align-items: center;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+    }
+    .HeadLinks a span{
+        margin-left: 1rem;
+        font-size: 1.85rem;
+    }
+    .HeadLinks a span:hover{
+    
+          padding-bottom: 0.3rem;
+      border-bottom: 0.2rem solid #ff7800;
+      animation: lineanimation 0.3s ease-in-out forwards;
+    }
+    .PhoneHeadLinks{
+      display: none;
+    }
+ 
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+       
+ .nav-btn {
+    display: flex;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 2rem;
+}
+
+.HeadLinks 
+{
+        height: 0;
+        display: block;
+         display: flex;
+         overflow: hidden;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+        padding: 1rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-between;
+    transition: all 0.3s linear
+
+}
+   .HeadLinks a{
+         
+        display: none;
+        align-items: center;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    transition: all 0.3s linear
+
+    
+    }
+      .HeadLinks a span{
+        display: flex;
+        width: 10rem;
+        margin-left: 2.5rem;
+        font-size: 1.85rem;
+    }
+    .HeadLinks a span:hover{
+    
+          padding-bottom: 0.3rem;
+      border-bottom: 0.2rem solid #ff7800;
+      animation: lineanimation 0.7s ease-in-out forwards;
+    }
+.show-nav{
+    height: 150px;
+    transition: all 0.5s linear;
+}
+.show-nav a{
+    display: flex;
+    transition: all 0.5s linear;
+
+}
+
+  
+}

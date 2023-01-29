@@ -1,0 +1,111 @@
+/* .HeadContainer{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: white;
+}
+@keyframes lineanimation {
+  0% {
+    border-bottom-width: 0%;
+  }
+  100% {
+    border-bottom-width: 100%;
+  }
+}
+
+.HeadLinks{
+     display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}
+.HeadLinks a{
+   
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.HeadLinks a span{
+    margin-left: 1rem;
+    font-size: 1.85rem;
+}
+.HeadLinks a span:hover{
+
+      padding-bottom: 0.3rem;
+  border-bottom: 0.2rem solid #ff7800;
+  animation: lineanimation 0.3s ease-in-out forwards;
+}
+.PhoneHeadLinks{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .HeadLinks{
+    display: none;
+  }
+.PhoneHeadLinks{
+  width: 100%;
+  font-size: 1rem;
+   padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    margin: auto;
+   
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.PhoneHeadLinks a{
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+.PhoneHeadLinks a span{
+    margin-left: 1rem;
+    font-size: 1.35rem;
+}
+.PhoneHeadLinks a span:hover{
+
+      padding-bottom: 0.3rem;
+  border-bottom: 0.2rem solid #ff7800;
+  animation: lineanimation 0.3s ease-in-out forwards;
+}
+
+.show{
+  display: flex;
+  flex-direction: column;
+}
+
+} */

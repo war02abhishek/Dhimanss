@@ -1,0 +1,81 @@
+.EnquiryContainer{
+    padding-top: 5rem;
+}
+.EnquiryContainer h1{
+    font-size: 3.1rem;
+    text-transform: uppercase;
+}
+
+/* Enquiry form container */
+.enquiry-form {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+/* Form field container */
+.form-field {
+  margin-bottom: 1rem;
+}
+
+/* Form label */
+.form-field label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Form input */
+.form-field input, .form-field select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* Form actions container
+.form-actions {
+  text-align: right;
+}
+
+/* Form submit button */
+.form-actions button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+.form-actions button:hover {
+  background-color: #0069d9;
+}
+
+/* Error message */
+.form-field .error {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Reduce the width of the form container on small screens */
+  .enquiry-form {
+    width: 90%;
+  }
+
+  /* Reduce the font-size of labels and inputs on small screens */
+  .form-field label, .form-field input, .form-field select {
+    font-size: 1rem;
+  }
+}

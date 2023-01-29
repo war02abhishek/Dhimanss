@@ -1,0 +1,129 @@
+.ButtonContainer{
+    margin-top: 12rem;
+}
+.mainqandAContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.manqAndAsub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+   margin-left:20rem;
+   margin-right:10rem;
+
+}
+
+.qandAContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+.AdminButton{
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+    font-family: "Belleza", sans-serif important ;
+    transition: 0.5s ease-in-out;
+}
+.AdminButton:hover{
+    background-color: rgb(31, 200, 31);
+}
+.EnqnameLink{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    padding-top: 0.1rem;
+    margin-left: 15rem;
+}
+.EnqnameLink a{
+    color: rgba(0, 44, 237, 0.806);
+    padding-left: 1rem;
+}
+.OurEnquiryTitle{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* padding: 6rem 0; */
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+    /* font-size: 3.5rem; */
+    color: var(--black);
+    margin-top: 1rem;
+    width: 10%;
+
+}
+
+.EnqtypesContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    align-items: center;
+
+}
+.EnqContainer{
+    padding-left: 2rem;
+    width: 90%;
+}
+.imagecontainer{
+    height: 33rem;
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+
+    .EnqnameLink{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+     margin-left: 0.11rem;
+}
+.manqAndAsub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+    margin-left:2.05rem;
+   margin-right:0.01rem
+}
+.OurEnquiryTitle{
+    width: 20%;
+
+}
+.EnqContainer{
+    padding-left: 2rem;
+    width: 80%;
+}
+.EnqnameLink a{
+    color: rgba(0, 44, 237, 0.806);
+    padding-left: 0.01rem;
+}
+.EnqtypesContainer{
+   
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+ 
+
+}
+
+
+
+    
+}

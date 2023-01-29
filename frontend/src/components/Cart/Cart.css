@@ -1,0 +1,147 @@
+/* Set a base font size for rem units */
+/* html {
+  font-size: 16px;
+} */
+
+/* Cart page container */
+.cart-page {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+.cart-page h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Product item container */
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+
+ 
+ 
+
+
+/* Product image */
+.product-item img {
+  width: 10rem;
+  height: 10rem;
+  margin-right: 2rem;
+  padding: 0.4rem;
+  border-radius: 10%;
+}
+
+
+
+/* Product info container */
+.product-info {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* Product name */
+.product-info h2 {
+    display: flex;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  width: 15rem;
+  align-items: center;
+}
+
+/* Product details */
+.product-info p {
+    display: flex;
+    width: 16rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 2.5rem;
+  padding-left: 2rem;
+  align-items: center;
+  text-align: left;
+}
+.product-info p :hover{
+    box-shadow: none;
+}
+.product-actions {
+  /* margin-top: 1rem; */
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.product-actions button:first-child {
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* Hover effect for buttons */
+.product-actions button:hover {
+  background-color: darkgray;
+}
+.emptyCart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Reduce font size on smaller screens */
+  /* html {
+    font-size: 14px;
+  } */
+
+  /* Stack product items vertically on smaller screens */
+  .product-item {
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /* Center product image on smaller screens */
+  .product-item img {
+    margin: 0 auto;
+  }
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+
+  .product-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .product-info p{
+
+  margin-bottom: 0.05rem;
+  padding: 0.05rem;
+  text-align: center;
+
+  }
+  
+
+
+}
